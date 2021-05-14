@@ -12,5 +12,13 @@
     "typewriter"
   ],
   "author": "Luteya Coulston",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoulKe/text-rotater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CoulKe/text-rotater/issues"
+  },
+  "homepage": "https://github.com/CoulKe/text-rotater#readme"
 }
