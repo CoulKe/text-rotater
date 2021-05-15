@@ -67,5 +67,5 @@ See below on [options](#options)
 | background  | changes the background color| initial
 | color  | changes the color of the text | initial
 | duration  | the duration of the animation in milliseconds | 2500 
-| direction  | Whether animation should go up or down, option values are <ul><li>top</li><li>bottom</li></ul> The default is top |
+| direction  | Whether animation should go up or down, option values are <ul><li>top</li><li>bottom</li></ul>| top
 
