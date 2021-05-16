@@ -49,6 +49,23 @@ npm i text-rotater
 ```
 or copy the code on [index.js](./index.js)
 
+### linking
+using common js:
+```js
+require("text-rotater");
+```
+<b>or</b>
+
+using module:
+```js
+import textRotater from "text-rotater";
+```
+<b>or:</b>
+```html
+<script src="./text-rotater/index.js"></script>
+```
+
+
 After installing/downloading you need to have an html element with an `id` of `text-rotater` then pass to that element a `data-rotate` with multiple words separated by commas as values:
 ```html
 <span id="text-rotater" data-rotate="Web developer, Desktop developer, Genius, Writer"></span>
