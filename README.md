@@ -50,15 +50,10 @@ npm i text-rotater
 or copy the code on [index.js](./index.js)
 
 ### linking
-using common js:
-```js
-require("text-rotater");
-```
-<b>or</b>
 
 using module:
 ```js
-import textRotater from "text-rotater";
+import TextRotater from "text-rotater";
 ```
 <b>or:</b>
 ```html
@@ -83,6 +78,6 @@ See below on [options](#options)
 | ------- | ----------- |------------
 | background  | changes the background color| initial
 | color  | changes the color of the text | initial
-| duration  | the duration of the animation in milliseconds | 2500 
+| duration  | the duration of the animation in milliseconds | 3000 
 | direction  | Whether animation should go up or down, option values are <ul><li>top</li><li>bottom</li></ul>| top
 
