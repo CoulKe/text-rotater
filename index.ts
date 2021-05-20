@@ -23,7 +23,7 @@ class TextRotater {
     let defaultOptions: iOptions = {
       background: "initial",
       color: "initial",
-      duration: 2500,
+      duration: 3000,
       direction: "top",
     };
     this.keyframeName = "textRotater";
@@ -85,4 +85,8 @@ class TextRotater {
         : this.currentWord++;
     }, this.options.duration);
   }
+}
+
+if (typeof module !== "undefined" && typeof module.exports !== "undefined") {
+  module.exports = TextRotater;
 }
